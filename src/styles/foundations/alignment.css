@@ -1,0 +1,10 @@
+/* Library Design System - Alignment Tokens */
+
+:root {
+  /* Alignment Tokens */
+  --lib-align-center: center;
+  --lib-align-left1: start;
+  --lib-align-left2: flex-start;
+  --lib-align-right1: end;
+  --lib-align-right2: flex-end;
+}

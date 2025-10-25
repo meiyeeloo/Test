@@ -1,0 +1,14 @@
+/* Library Design System - Main Entry Point */
+
+/* Import Library Design System Foundation Tokens */
+
+@import './foundations/color.css';
+@import './foundations/typography.css';
+@import './foundations/outline.css';
+@import './foundations/border.css';
+@import './foundations/space.css';
+@import './foundations/size.css';
+@import './foundations/alignment.css';
+@import './foundations/cursor.css';
+@import './foundations/transition.css';
+@import './foundations/display.css';

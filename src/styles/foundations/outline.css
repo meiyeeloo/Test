@@ -1,0 +1,10 @@
+/* Library Design System - Outline Tokens */
+
+:root {
+  /* Outline Tokens */
+  --lib-outline-no: 0;
+  --lib-outline-focus: 2px solid var(--lib-color-black);
+  
+  /* Outline Offset Tokens */
+  --lib-offset-focus: 2px;
+}

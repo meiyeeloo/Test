@@ -1,0 +1,21 @@
+/* Library Design System - Border Tokens */
+
+:root {
+
+  /* Border Specs Tokens */
+  --lib-borderWidth: 1px;
+  --lib-borderStyle: solid;
+  --lib-borderColor: var(--lib-color-grey3);
+
+  /* Border Tokens */
+  --lib-border-no: 0;
+  --lib-border-yes: var(--lib-borderWidth) var(--lib-borderStyle) var(--lib-borderColor);
+
+  /* Border Radius Tokens */
+  --lib-radius-no: 0;
+  --lib-radius-s: 6px;
+  --lib-radius-m: 12px;
+  --lib-radius-l: 20px;
+  --lib-radius-full: 9999px;
+  
+}

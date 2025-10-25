@@ -1,0 +1,11 @@
+/* Library Page Component Styles */
+
+.lib-page {
+  background: var(--lib-color-grey1);
+  width: var(--lib-size-full);
+  height: var(--lib-size-full);
+  padding: var(--lib-space-xl);
+  display: var(--lib-display-flex);
+  flex-direction: var(--lib-direction-col);
+  gap: var(--lib-space-xl);
+}

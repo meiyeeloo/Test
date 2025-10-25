@@ -1,0 +1,67 @@
+/* Library Button Component Styles */
+
+/* Base button styles */
+.lib-button {
+  min-width: var(--lib-size-100);
+  border-radius: var(--lib-radius-m);
+  text-align: var(--lib-align-center);
+  cursor: var(--lib-cursor-pointer);
+  transition: var(--lib-transition-fast);
+  border: var(--lib-border-no);
+  padding: var(--lib-spaceS-m) var(--lib-space-l);
+}
+
+.lib-button:disabled {
+  cursor: var(--lib-cursor-not-allowed);
+}
+
+/* Solid variant */
+.lib-button-solid {
+  background-color: var(--lib-color-primary7);
+  color: var(--lib-color-white);
+}
+
+.lib-button-solid:hover {
+  background-color: var(--lib-color-primary8);
+}
+
+.lib-button-solid:active {
+  background-color: var(--lib-color-primary9);
+}
+
+.lib-button-solid:focus {
+  outline: var(--lib-outline-focus);
+  outline-offset: var(--lib-offset-focus);
+}
+
+.lib-button-solid:disabled {
+  background-color: var(--lib-color-grey3);
+}
+
+/* Outlined variant */
+.lib-button-outlined {
+  background-color: var(--lib-color-white);
+  color: var(--lib-color-grey8);
+  border: var(--lib-border-yes);
+  padding: calc(var(--lib-spaceS-m) - var(--lib-borderWidth)) calc(var(--lib-space-l) - var(--lib-borderWidth));
+
+  
+}
+
+.lib-button-outlined:hover {
+  background-color: var(--lib-color-grey1);
+}
+
+.lib-button-outlined:active {
+  background-color: var(--lib-color-grey2);
+}
+
+.lib-button-outlined:focus {
+  outline: var(--lib-outline-focus);
+  outline-offset: var(--lib-offset-focus);
+}
+
+.lib-button-outlined:disabled {
+  background-color: var(--lib-color-grey1);
+  color: var(--lib-color-grey4);
+}

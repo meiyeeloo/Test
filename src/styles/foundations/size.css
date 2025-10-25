@@ -1,0 +1,7 @@
+/* Library Design System - Size Tokens */
+
+:root {
+  /* Size Tokens */
+  --lib-size-100: 100px;
+  --lib-size-full: 100%;
+}

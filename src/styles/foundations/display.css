@@ -1,0 +1,12 @@
+/* Library Design System - Display Tokens */
+
+:root {
+  /* Display Tokens */
+  --lib-display-flex: flex;
+  --lib-display-block: block;
+  --lib-display-relative: relative;
+
+  /* Flex Direction Tokens */
+  --lib-direction-col: column;
+  --lib-direction-row: row;
+}

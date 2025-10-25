@@ -1,0 +1,20 @@
+/* Library Group Component Styles */
+
+/* Variant: ver-24 (vertical with 24px gap) */
+.lib-group-ver-24 {
+  width: var(--lib-size-full);
+  display: var(--lib-display-flex);
+  flex-direction: var(--lib-direction-col);
+  align-items: var(--lib-align-center);
+  gap: var(--lib-space-l);
+}
+
+/* Variant: hor-24 (horizontal with 24px gap) */
+.lib-group-hor-24 {
+  width: var(--lib-size-full);
+  display: var(--lib-display-flex);
+  flex-direction: var(--lib-direction-row);
+  justify-content: var(--lib-align-center);
+  align-items: var(--lib-align-center);
+  gap: var(--lib-space-l);
+}

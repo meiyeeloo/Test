@@ -1,0 +1,26 @@
+/* Library Link Component Styles */
+
+.lib-link {
+  font-size: var(--lib-font-regular);
+  line-height: var(--lib-lineheight-regular);
+  font-weight: var(--lib-weight-regular);
+  color: var(--lib-color-primary7);
+  text-decoration: var(--lib-decoration-none);
+  transition: var(--lib-transition-fast);
+  border-radius: var(--lib-radius-s); 
+}
+
+.lib-link:hover {
+  color: var(--lib-color-primary8);
+  text-decoration: var(--lib-decoration-underline);
+}
+
+.lib-link:active {
+  color: var(--lib-color-primary9);
+  text-decoration: var(--lib-decoration-underline);
+}
+
+.lib-link:focus {
+  outline: var(--lib-outline-focus);
+  outline-offset: var(--lib-offset-focus);
+}

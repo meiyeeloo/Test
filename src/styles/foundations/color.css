@@ -1,0 +1,41 @@
+/* Library Design System - Color Tokens */
+
+:root {
+
+  /* Color Tokens - Base */
+  --lib-color-white: #FFFFFF;
+  --lib-color-black: #000000;
+
+  /* Color Tokens - Neutral Scale */
+  --lib-color-grey1: #F9FAFB;
+  --lib-color-grey2: #F2F4F6;
+  --lib-color-grey3: #E5E7EB;
+  --lib-color-grey4: #D1D5DB;
+  --lib-color-grey5: #9CA3AF;
+  --lib-color-grey6: #6B7280;
+  --lib-color-grey7: #4B5563;
+  --lib-color-grey8: #374151;
+  --lib-color-grey9: #1F2937;
+
+  /* Color Tokens - Brand Color - Primary Scale */
+  --lib-color-primary1: #E6F2FF;
+  --lib-color-primary2: #CCE5FF;
+  --lib-color-primary3: #99CCFF;
+  --lib-color-primary4: #66B2FF;
+  --lib-color-primary5: #3399FF;
+  --lib-color-primary6: #007FFF;
+  --lib-color-primary7: #0066CC;
+  --lib-color-primary8: #004C99;
+  --lib-color-primary9: #003366;
+  
+  /* Color Tokens - System Color - Error Scale */
+  --lib-color-error1: #FEE2E2;
+  --lib-color-error2: #FECACA;
+  --lib-color-error3: #FCA5A5;
+  --lib-color-error4: #F87171;
+  --lib-color-error5: #EF4444;
+  --lib-color-error6: #DC2626;
+  --lib-color-error7: #B91C1C;
+  --lib-color-error8: #991B1B;
+  --lib-color-error9: #7F1D1D;
+}

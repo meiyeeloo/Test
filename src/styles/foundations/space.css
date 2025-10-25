@@ -1,0 +1,17 @@
+/* Library Design System - Space Tokens */
+
+:root {
+  /* Space Tokens - General */
+  --lib-space-no: 0;
+  --lib-space-xs: 4px;
+  --lib-space-s: 8px;
+  --lib-space-m: 16px;
+  --lib-space-l: 24px;
+  --lib-space-xl: 40px;
+
+  /* Space Tokens - Small Components (e.g. Button, Icon Button, Input) */
+  --lib-spaceS-s: 6px;   /*Total: 32px*/
+  --lib-spaceS-m: 10px;  /*Total: 40px*/
+  --lib-spaceS-l: 14px;  /*Total: 48px*/
+  
+}

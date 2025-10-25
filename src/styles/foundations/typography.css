@@ -1,0 +1,96 @@
+/* Library Design System - Typography Tokens */
+
+:root {
+  
+  /* Font Size Tokens */
+  --lib-fontFamily-regular: 'Helvetica Neue', sans-serif;
+
+  /* Font Weight Tokens*/
+  --lib-weight-regular: 400;
+  --lib-weight-bold: 500;
+  
+  /* Font Weight Tokens*/
+  --lib-fontSize-3xl: 2rem;     /*32*/
+  --lib-fontSize-2xl: 1.5rem;   /*24*/
+  --lib-fontSize-xl: 1.25rem;   /*20*/
+  --lib-fontSize-l: 1rem;       /*16*/
+  --lib-fontSize-m: 0.875rem;   /*14*/
+  --lib-fontSize-s: 0.75rem;    /*12*/
+  --lib-fontSize-xs: 0.625rem;  /*10*/
+
+  /* Line Height Tokens*/
+  --lib-lineHeight-3xl: 2.5em;  /*40*/
+  --lib-lineHeight-2xl: 2em;    /*32*/
+  --lib-lineHeight-xl: 1.75rem;  /*28*/
+  --lib-lineHeight-l: 1.5rem;   /*24*/
+  --lib-lineHeight-m: 1.25rem;  /*20*/
+  --lib-lineHeight-s: 1rem;     /*16*/
+  --lib-lineHeight-xs: 0.75rem; /*12*/
+
+  /*Text Decoration Tokens*/
+  --lib-decoration-none: none;
+  --lib-decoration-underline: underline;
+  
+}
+
+/* Typography Styles - Basic */
+
+h1 {
+  font: var(--lib-weight-regular) var(--lib-fontSize-3xl)/var(--lib-lineHeight-3xl) var(--lib-fontFamily-regular); 
+  color: var(--lib-color-black);
+}
+
+h2 {
+  font: var(--lib-weight-bold) var(--lib-fontSize-2xl)/var(--lib-lineHeight-2xl) var(--lib-fontFamily-regular); 
+  color: var(--lib-color-black);
+}
+
+h3 {
+  font: var(--lib-weight-bold) var(--lib-fontSize-xl)/var(--lib-lineHeight-xl) var(--lib-fontFamily-regular); 
+  color: var(--lib-color-black);
+}
+
+h4 {
+  font: var(--lib-weight-bold) var(--lib-fontSize-l)/var(--lib-lineHeight-l) var(--lib-fontFamily-regular); 
+  color: var(--lib-color-black);
+}
+
+h5 {
+  font: var(--lib-weight-bold) var(--lib-fontSize-m)/var(--lib-lineHeight-m) var(--lib-fontFamily-regular); 
+  color: var(--lib-color-black);
+}
+
+div, p, span, ul, ol, li, td, th, label {
+  font: var(--lib-weight-regular) var(--lib-fontSize-m)/var(--lib-lineHeight-m) var(--lib-fontFamily-regular); 
+  color: var(--lib-color-grey7);
+}
+
+button, em {
+  font: var(--lib-weight-bold) var(--lib-fontSize-m)/var(--lib-lineHeight-m) var(--lib-fontFamily-regular); 
+  color: var(--lib-color-black);
+}
+
+
+/* Typography Tokens - Used in Inputs */
+
+input[type="text"] {
+  font: var(--lib-weight-regular) var(--lib-fontSize-m)/var(--lib-lineHeight-m) var(--lib-fontFamily-regular); 
+  color: var(--lib-color-black);
+}
+
+::placeholder {
+  font: var(--lib-weight-regular) var(--lib-fontSize-m)/var(--lib-lineHeight-m) var(--lib-fontFamily-regular); 
+  color: var(--lib-color-grey4);
+}
+
+.lib-input-hint {
+  font: var(--lib-weight-regular) var(--lib-fontSize-s)/var(--lib-lineHeight-s) var(--lib-fontFamily-regular); 
+  color: var(--lib-color-grey7);  
+}
+
+.lib-input-error {
+  font: var(--lib-weight-regular) var(--lib-fontSize-s)/var(--lib-lineHeight-s) var(--lib-fontFamily-regular); 
+  color: var(--lib-color-error7);  
+}
+  
+

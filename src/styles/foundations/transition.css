@@ -1,0 +1,6 @@
+/* Library Design System - Transition Tokens */
+
+:root {
+  --lib-transition-no: none;
+  --lib-transition-fast: all 0.2s ease;
+}

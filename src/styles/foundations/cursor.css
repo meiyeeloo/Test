@@ -1,0 +1,8 @@
+/* Library Design System - Cursor Tokens */
+
+:root {
+  --lib-cursor-default: default;
+  --lib-cursor-pointer: pointer;
+  --lib-cursor-text: text;
+  --lib-cursor-not-allowed: not-allowed;
+}
