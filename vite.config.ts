@@ -5,7 +5,6 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: '/Test/', // 👈 must match your repo name (case-sensitive)
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
